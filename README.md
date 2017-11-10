@@ -15,7 +15,7 @@
 + [x] Use [Computed Properties and Watchers](https://vuejs.org/v2/guide/computed.html)
 + [x] Use [Class and Style Bindings](https://vuejs.org/v2/guide/class-and-style.html)
 + [x] Use [Conditional Rendering](https://vuejs.org/v2/guide/conditional.html)
-+ [ ] Use [List Rendering](https://vuejs.org/v2/guide/list.html)
++ [x] Use [List Rendering](https://vuejs.org/v2/guide/list.html)
 + [ ] Use [Event Handling](https://vuejs.org/v2/guide/events.html)
 + [ ] Use [Form Input Bindings](https://vuejs.org/v2/guide/forms.html)
 
