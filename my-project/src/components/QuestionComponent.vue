@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="question-wrapper">
     <div class="question"><strong>Question:</strong> {{ item.question }}</div>
     <div class="answer" v-if="showAnswer"><strong>Answer:</strong> {{ item.answer }}</div>
-    <button v-if="!showAnswer" @click="showAnswer = true">Show Answer</button>
+    <button class="answer" type="button" v-if="!showAnswer" @click="showAnswer = true">Show Answer</button>
   </div>
 </template>
 
@@ -20,10 +20,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.question {
-  margin-top: 10px;
+.question-wrapper {
+  padding: 100px 0;
 }
 .answer {
-  margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+button.answer {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0 none;
+  background: green;
+  color: white;
+  font-size: 1.1rem;
+
 }
 </style>
